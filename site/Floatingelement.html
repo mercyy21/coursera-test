@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Elements</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        p{
+            width: 50%;
+            float: left;
+            padding: 10px;
+        }
+        #p3{
+            background-color: #5F9EA0;
+        }
+        #p4{
+            background-color: #FF7F50;
+        }
+        section{
+            clear:both;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Floating Elements</h1>
+     <h3>Two Column Elements</h3>
+
+    <div>
+        <p id="p1">The class selector does require a little bit of a change to your HTML document in that each element that you want that class applied to has to have a attribute class equal to the class name. 
+            So in this case we have a p, the paragraph tag and div tag both have the attribute class="blue" and therefore, their content or their text content will be colored blue. Notice that a different paragraph that is not marked with attribute class="blue" is completely unaffected by this. 
+            Note the differences between the way you define a class and then the way you use the class. </p>
+        <p id="p2">There cannot be any space between the dot and the name of the class in case no space between the dot and the word blue.
+            However, when you use the class, you don't use the dot in its name, you just use its name. The class selector does require a little bit of a change to your HTML document in that each element that you want that class applied to has to have a attribute class equal to the class name. 
+           So in this case we have a p, the paragraph tag and div tag both have the attribute class="blue"</p>
+        <section>This is regular content continuing after the paragraph boxes</section>
+    </div>
+</body>
+</html>
